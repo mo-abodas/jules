@@ -97,7 +97,7 @@ REAL(KIND=real_jlslsm) :: alb_df_tmp(nd_points)
 ! the relative refractive index of water and air, for broadband VIS:
 REAL(KIND=real_jlslsm), PARAMETER :: bb_refm = 1.34
 ! the albedo of whitecaps (foam on top of large waves):
-REAL(KIND=real_jlslsm), PARAMETER :: albedo_whitecap = 0.55
+REAL(KIND=real_jlslsm), PARAMETER :: albedo_whitecap = 0.16
 ! Equivalent incident cos(solar zenith angle), used for diffuse sub-surface
 ! reflection. Morel and Gentili, 1991 (doi:10.1364/AO.30.004427).
 REAL(KIND=real_jlslsm)                                                         &
